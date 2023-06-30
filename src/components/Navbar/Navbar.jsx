@@ -1,0 +1,28 @@
+
+import { Link } from "react-scroll";
+import { navLinksdata } from "../../contants/navOptions";
+const Navbar = () => {
+    return (
+        <div className="flex items-center justify-between w-full h-20">
+            <div><h1>Download Button</h1></div>
+            <div>
+                <ul className="flex items-center gap-10">
+                    {
+                        navLinksdata.map(data => <li className="text-base font-normal tracking-wide text-gray-400 duration-500 cursor-pointer hover:text-designColor" key={data._id}>
+                            <Link
+                                activeClass="active"
+                                to={data.link}
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                            >{data.title}</Link>
+                        </li>)
+                    }
+                </ul>
+            </div>
+        </div>
+    );
+};
+
+export default Navbar;
