@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { navLinksdata } from "../../contants/navOptions";
 const Navbar = () => {
     return (
-        <div className="flex items-center justify-between w-full h-20">
+        <div className="flex items-center justify-between w-full h-20 border-b-[1px] border-b-gray-700">
             <div><h1>Download Button</h1></div>
             <div>
                 <ul className="flex items-center gap-10">
