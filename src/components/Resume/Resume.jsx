@@ -19,25 +19,25 @@ const Resume = () => {
                         setSkillData(false) &
                         setExperienceData(false) &
                         setAchievementData(false)
-                    } className="resumeLi">Education</li>
+                    } className={`${educationData ? "border-designColor rounded-lg" : "border-transparent"} resumeLi`}>Education</li>
                     <li onClick={() =>
                         setEducationData(false) &
                         setSkillData(true) &
                         setExperienceData(false) &
                         setAchievementData(false)
-                    } className="resumeLi">Professional Skill</li>
+                    } className={`${skillData ? "border-designColor rounded-lg" : "border-transparent"} resumeLi`}>Professional Skill</li>
                     <li onClick={() =>
                         setEducationData(false) &
                         setSkillData(false) &
                         setExperienceData(true) &
                         setAchievementData(false)
-                    } className="resumeLi">Experience</li>
+                    } className={`${experienceData ? "border-designColor rounded-lg" : "border-transparent"} resumeLi`}>Experience</li>
                     <li onClick={() =>
                         setEducationData(false) &
                         setSkillData(false) &
                         setExperienceData(false) &
                         setAchievementData(true)
-                    } className="resumeLi">Achievements</li>
+                    } className={`${achievementData ? "border-designColor rounded-lg" : "border-transparent"} resumeLi`}>Achievements</li>
                 </ul>
             </div>
 

@@ -1,15 +1,15 @@
 import ResumeCard from "./ResumeCard";
-
+import { motion } from "framer-motion"
 const Achivement = () => {
     return (
-        <div className="flex gap-20 font-titleFont"
+        <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{duration:.5}}} className="flex gap-20 font-titleFont"
     >
       <div>
         <div className="py-12 font-titleFont">
           <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
           <h2 className="text-4xl font-bold">Company Experience</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Lorem ipsum dolor sit amet."
             subTitle="Lorem ipsum dolor sit amet alternative."
@@ -35,7 +35,7 @@ const Achivement = () => {
           <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
           <h2 className="text-4xl font-bold">Job Experience</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Lorem ipsum dolor sit amet."
             subTitle="Lorem ipsum dolor sit amet alternative."
@@ -56,7 +56,7 @@ const Achivement = () => {
           />
         </div>
       </div>
-    </div>
+    </motion.div>
     );
 };
 
