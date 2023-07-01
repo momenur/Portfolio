@@ -15,7 +15,7 @@ const Banner = () => {
             <div className="flex flex-col w-1/2 gap-20">
                 <div className="flex flex-col gap-5">
                     <h3 className="text-lg font-normal"> WELCOME TO MY WORLD</h3>
-                    <h1 className="text-6xl font-bold text-white">Hi I'm{" "}<span className="capitalize text-designColor">Momenur Islam</span></h1>
+                    <h1 className="text-6xl font-bold text-white">{"Hi I'm"}{" "}<span className="capitalize text-designColor">Momenur Islam</span></h1>
                     <h3 className="text-4xl font-bold text-whites">a <span>{text}</span>
                         <Cursor
                             cursorBlinking="false"
@@ -24,7 +24,7 @@ const Banner = () => {
                         />
                     </h3>
                     <p>
-                        I use animation as a third dimensiton by which to simplify experiences and kuiding thro cach and every interaction. I'm not adding motion just to sqruce things up, but doing it in ways that.
+                        {"I use animation as a third dimensiton by which to simplify experiences and kuiding thro cach and every interaction. I'm not adding motion just to sqruce things up, but doing it in ways that"}.
                     </p>
                 </div>
                 <div className="flex justify-between">

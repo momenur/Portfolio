@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { navLinksdata } from "../../contants/navOptions";
 const Navbar = () => {
     return (
-        <div className="flex items-center justify-between w-full h-20 border-b-[1px] border-b-gray-700">
+        <div className="flex sticky top-0 z-50 bg-bodyColor items-center justify-between w-full h-20 border-b-[1px] border-b-gray-700">
             <div><h1>Download Button</h1></div>
             <div>
                 <ul className="flex items-center gap-10">
@@ -14,8 +14,8 @@ const Navbar = () => {
                                 to={data.link}
                                 spy={true}
                                 smooth={true}
-                                offset={-70}
-                                duration={500}
+                                offset={-80}
+                                duration={800}
                             >{data.title}</Link>
                         </li>)
                     }
