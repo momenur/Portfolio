@@ -11,7 +11,7 @@ const Resume = () => {
     const [experienceData, setExperienceData] = useState(false);
     const [achievementData, setAchievementData] = useState(false);
     return (
-        <section id="resume">
+        <section id="resume" className="border-b-[1px] border-b-black pb-20">
             <Title title="visit my resume" description="my resume"></Title>
             <div>
                 <ul className="grid w-full grid-cols-4">
