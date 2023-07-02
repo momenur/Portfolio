@@ -80,7 +80,7 @@ const Testimonial = () => {
         )
     };
     return (
-        <section id="testimonial">
+        <section id="testimonial" className="border-b-[1px] border-b-black pb-20">
             <Title title="what clients say" description="testimonial"></Title>
             {/* Main Div */}
             <div>

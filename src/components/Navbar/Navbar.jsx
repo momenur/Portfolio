@@ -14,7 +14,7 @@ const Navbar = () => {
                                 to={data.link}
                                 spy={true}
                                 smooth={true}
-                                offset={-80}
+                                offset={-75}
                                 duration={800}
                             >{data.title}</Link>
                         </li>)
