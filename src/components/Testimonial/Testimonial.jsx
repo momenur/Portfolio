@@ -5,6 +5,28 @@ import client2 from '../../assets/images/testimonial/testimonialTwo.png'
 import client1 from '../../assets/images/testimonial/testimonialOne.png'
 import quortImg from '../../assets/images/testimonial/quote.png'
 import { useState } from "react";
+import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
+
+function SampleNextArrow(props) {
+    const { onClick } = props;
+    return (
+      <div
+      className="w-14 h-12 bg-[#0c1821] hover:bg-black duration-300 rounded-md text-2xl text-gray-400 flex justify-center items-center absolute top-0 right-0 shadow-shadowOne cursor-pointer z-10"
+        onClick={onClick}
+     > <HiArrowRight></HiArrowRight></div> 
+    );
+  }
+
+  function SamplePrevArrow(props) {
+    const { onClick } = props;
+    return (
+      <div
+      className="w-14 h-12 bg-[#0c1821] hover:bg-black duration-300 rounded-md text-2xl text-gray-400 flex justify-center items-center absolute top-0 right-20 shadow-shadowOne cursor-pointer z-10"
+        onClick={onClick}
+      ><HiArrowLeft></HiArrowLeft></div>
+    );
+  }
+  
 const Testimonial = () => {
     const [dotActive, setDotActive] = useState(0)
     const settings = {
@@ -13,6 +35,8 @@ const Testimonial = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        nextArrow:<SampleNextArrow></SampleNextArrow>,
+        prevArrow:<SamplePrevArrow></SamplePrevArrow>,
         beforeChange: (prev, next) => {
             setDotActive(next);
         },
