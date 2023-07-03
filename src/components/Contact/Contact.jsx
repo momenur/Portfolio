@@ -53,10 +53,10 @@ const Contact = () => {
             <Title title="contact" description="Contact with me"></Title>
             <div className="max-w-6xl mx-auto">
                 <div className="w-full">
-                    <div className="flex justify-between w-full h-auto">
+                    <div className="flex flex-col justify-between w-full h-auto lgl:flex-row">
                         <ContactLeft></ContactLeft>
 
-                        <div className="w-[60%] h-full flex flex-col  items-center justify-center">
+                        <div className="w-full lgl:w-[60%] h-full flex flex-col  items-center justify-center">
                             <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-8 flex flex-col gap-8 justify-center">
                                 <form onSubmit={handleSend} className="w-full">
                                     {errMsg && (
@@ -70,8 +70,8 @@ const Contact = () => {
                                         </p>
                                     )}
                                     <div className="flex flex-col gap-6 py-2">
-                                        <div className="flex gap-10">
-                                            <div className="flex flex-col w-1/2 gap-4">
+                                        <div className="flex flex-col gap-10 lgl:flex-row">
+                                            <div className="flex flex-col w-full gap-4 lgl:w-1/2">
                                                 <p className="text-sm tracking-wide text-gray-400 uppercase">your name</p>
                                                 <input onChange={(e) => setUsername(e.target.value)}
                                                     value={username}
@@ -79,7 +79,7 @@ const Contact = () => {
                                                         "outline-designColor"
                                                         } contactInput`} type="text" name="" id="" />
                                             </div>
-                                            <div className="flex flex-col w-1/2 gap-4">
+                                            <div className="flex flex-col w-full gap-4 lgl:w-1/2">
                                                 <p className="text-sm tracking-wide text-gray-400 uppercase">Phone Number</p>
                                                 <input onChange={(e) => setPhoneNumber(e.target.value)}
                                                     value={phoneNumber}

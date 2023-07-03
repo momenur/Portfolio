@@ -2,7 +2,7 @@ import ResumeCard from "./ResumeCard";
 import { motion } from "framer-motion"
 const Education = () => {
     return (
-        <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{duration:.5}}} className="flex gap-20">
+        <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{duration:.5}}} className="flex flex-col gap-20 lgl:flex-row">
             <div>
                 <div className="py-12">
                     <p className="text-sm text-designColor tracking-[4px]">1998 - 2018</p>

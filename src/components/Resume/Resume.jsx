@@ -14,7 +14,7 @@ const Resume = () => {
         <section id="resume" className="border-b-[1px] border-b-black pb-20">
             <Title title="visit my resume" description="my resume"></Title>
             <div>
-                <ul className="grid w-full grid-cols-4">
+                <ul className="grid w-full grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
                     <li onClick={() => setEducationData(true) &
                         setSkillData(false) &
                         setExperienceData(false) &

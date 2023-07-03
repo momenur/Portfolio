@@ -87,8 +87,8 @@ const Testimonial = () => {
                 <div className="max-w-6xl mx-auto">
                     <Slider {...settings}>
                         <div className="w-full">
-                            <div className="w-full h-[500px] flex justify-between">
-                                <div className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne p-8 rounded-lg flex flex-col gap-8 justify-center">
+                            <div className="flex flex-col justify-between w-full lgl:flex-row">
+                                <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne p-8 rounded-lg flex flex-col gap-8 justify-center">
                                     <img className="object-cover rounded-lg h-72" src={client2} alt="" />
                                     <div>
                                         <p className="mb-2 text-xs tracking-wide uppercase text-designColor">Bound - Trolola</p>
@@ -96,10 +96,10 @@ const Testimonial = () => {
                                         <p className="text-base tracking-wide text-gray-500">Operation Officer</p>
                                     </div>
                                 </div>
-                                <div className="w-[60%] h-full flex flex-col justify-between">
-                                    <img className="w-[20%]" src={quortImg} alt="" />
+                                <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
+                                    <img className="w-20 lgl:w-32" src={quortImg} alt="" />
                                     <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-8 flex flex-col gap-8 justify-center">
-                                        <div className="flex items-center justify-between py-6 border-b-2 border-b-gray-900">
+                                        <div className="flex flex-col justify-between py-6 border-b-2 lgl:items-center lgl:flex-row border-b-gray-900">
                                             <div>
                                                 <h3 className="text-2xl font-medium tracking-wide">Travel Mobile App Design.</h3>
                                                 <p className="mt-3 text-base text-gray-400">via Upwork - mar 4, 2015 - Aug 30, 2021 test</p>
@@ -119,8 +119,8 @@ const Testimonial = () => {
                         </div>
                         {/* Slider 2 is Start */}
                         <div className="w-full">
-                            <div className="w-full h-[500px] flex justify-between">
-                                <div className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne p-8 rounded-lg flex flex-col gap-8 justify-center">
+                            <div className="flex flex-col justify-between w-full lgl:flex-row">
+                                <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne p-8 rounded-lg flex flex-col gap-8 justify-center">
                                     <img className="object-cover rounded-lg h-72" src={client1} alt="" />
                                     <div>
                                         <p className="mb-2 text-xs tracking-wide uppercase text-designColor">Bound - Trolola</p>
@@ -128,10 +128,10 @@ const Testimonial = () => {
                                         <p className="text-base tracking-wide text-gray-500">Operation Officer</p>
                                     </div>
                                 </div>
-                                <div className="w-[60%] h-full flex flex-col justify-between">
-                                    <img className="w-[20%]" src={quortImg} alt="" />
+                                <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
+                                    <img className="w-20 lgl:w-32" src={quortImg} alt="" />
                                     <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-8 flex flex-col gap-8 justify-center">
-                                        <div className="flex items-center justify-between py-6 border-b-2 border-b-gray-900">
+                                        <div className="flex flex-col justify-between py-6 border-b-2 lgl:items-center lgl:flex-row border-b-gray-900">
                                             <div>
                                                 <h3 className="text-2xl font-medium tracking-wide">Travel Mobile App Design.</h3>
                                                 <p className="mt-3 text-base text-gray-400">via Upwork - mar 4, 2015 - Aug 30, 2021 test</p>

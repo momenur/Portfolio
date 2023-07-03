@@ -8,7 +8,7 @@ const ResumeCard = ({title,subTitle,result,des}) => {
                 </span>
             </div>
             <div className="flex flex-col justify-center w-full gap-6 p-4 duration-300 bg-black rounded-lg bg-opacity-20 hover:bg-opacity-30 lg:px-10 lgl:gap-10 shadow-shadowOne">
-                <div className="flex justify-between gap-4 lgl:flex-row lgl:gap-0 lgl:items-center">
+                <div className="flex flex-col justify-between gap-4 lgl:flex-row lgl:gap-0 lgl:items-center">
                     <div>
                         <h3 className="text-xl font-semibold duration-300 md:text-2xl group-hover:text-white">
                             {title}
