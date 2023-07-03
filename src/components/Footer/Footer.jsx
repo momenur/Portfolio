@@ -16,6 +16,7 @@ const Footer = () => {
                             <FaLinkedinIn />
                         </span>
                     </div>
+                    <button className="px-4 h-12 bg-[#141518] rounded-lg text-base text-designColor tracking-wide uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent">Download Resume</button>
                 </div>
                 <div className="w-full h-full">
                     <h3 className="text-xl tracking-wider uppercase text-designColor">

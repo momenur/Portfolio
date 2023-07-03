@@ -8,7 +8,7 @@ const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false)
     return (
         <div className="flex sticky top-0 z-50 bg-bodyColor items-center justify-between w-full h-20 border-b-[1px] border-b-gray-700">
-            <div><h1>Download Button</h1></div>
+            <button className="px-4 h-12 bg-[#141518] rounded-lg text-base text-designColor tracking-wide uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent">Download Resume</button>
             <div>
                 <ul className="items-center hidden gap-6 lg:gap-10 mdl:inline-flex">
                     {

@@ -31,6 +31,10 @@
     border-bottom: 2px solid #ff014f;
 }
 
+.scrollbar-hide::-webkit-scrollbar{
+    display: none;
+}
+
 /* import Title from "../../Share/Title/Title";
 import ContactLeft from "./ContactLeft";
 
