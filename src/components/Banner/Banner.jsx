@@ -14,9 +14,9 @@ const Banner = () => {
         <section id="home" className="w-full pt-10 pb-20 border-b-[1px] border-b-black flex flex-col lgl:flex-row">
             <div className="flex flex-col w-full gap-20 lgl:w-1/2">
                 <div className="flex flex-col gap-5">
-                    <h3 className="text-lg font-normal"> WELCOME TO MY WORLD</h3>
-                    <h1 className="text-6xl font-bold text-white">{"Hi I'm"}{" "}<span className="capitalize text-designColor">Momenur Islam</span></h1>
-                    <h3 className="text-4xl font-bold text-whites">a <span>{text}</span>
+                    <h3 className="text-sm font-normal lgl:text-lg"> WELCOME TO MY WORLD</h3>
+                    <h1 className="text-4xl font-bold text-white lgl:text-6xl">{"Hi I'm"}{" "}<span className="capitalize text-designColor">Momenur Islam</span></h1>
+                    <h3 className="text-2xl font-bold lgl:text-4xl text-whites">a <span>{text}</span>
                         <Cursor
                             cursorBlinking="false"
                             cursorStyle="I"
