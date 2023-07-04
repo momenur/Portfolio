@@ -24,7 +24,7 @@ const Banner = () => {
                         />
                     </h3>
                     <p>
-                        {"I use animation as a third dimensiton by which to simplify experiences and kuiding thro cach and every interaction. I'm not adding motion just to sqruce things up, but doing it in ways that"}.
+                        {"To work in a friendly, learning, and innovative environment to utilize my analytical and technical skills to makea glorious contribution to human development"}.
                     </p>
                 </div>
                 <div className="flex flex-col justify-between gap-8 lgl:gap-0 lgl:flex-row">
