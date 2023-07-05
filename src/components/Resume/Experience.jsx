@@ -6,53 +6,54 @@ const Experience = () => {
     >
       <div>
         <div className="py-12">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2016 - 2023</p>
+          <h2 className="text-2xl font-bold lgl:text-4xl">Job Experience</h2>
         </div>
         <div className="mt-6 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Junior Instructor"
+            subTitle="Model Institute of Science & Technology  (2021 - 2022)"
+            result="GAZIPUR"
+            des="As a teacher, inspiring minds, fostering tech knowledge, shaping future innovators. Empowering the next generation of tech enthusiasts."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="IT Support Engineer"
+            subTitle="Marico Bangladesh LTD (2016 - 2000)"
+            result="DHAKA"
+            des="This job give a big opportunity to improve my communication skill. and this is the my first job"
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Web Development Trainer"
+            subTitle="Model Institute of Science & Technology (2 Months)"
+            result="GAZIPUR
+            "
+            des="Nurturing coding talents, crafting web wizards, empowering learners to build online wonders. Inspiring growth!"
           />
         </div>
       </div>
       <div>
         <div className="py-12">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
-          <h2 className="text-4xl font-bold">Trainer Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2016 - 2023</p>
+          <h2 className="text-2xl font-bold lgl:text-4xl">Other Experience</h2>
         </div>
         <div className="mt-6 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Gym Instructor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
+            title="Web Development"
+            subTitle="Continue Give Afford (2018 - 2023)"
             result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            des="Crafting digital experiences, coding creativity, weaving functionality and design into captivating online landscapes."
           />
           <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="SuperKing College (2010 - 2014)"
-            result="CANADA"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Completed Project"
+            subTitle="Dhaka Gulsan Badda (2018 - 2023)"
+            result="DHAKA"
+            des="I completed more then 20 project, Some Project of Them Show in Project Section."
           />
           <ResumeCard
-            title="School Teacher"
-            subTitle="Kingstar Secondary School (2001 - 2010)"
-            result="NEVADA"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Event Management"
+            subTitle="Model Institute of Science & Technology (2006 - 2020)"
+            result="GAZIPU"
+            des="More then 5 Academic Event successfully completed and it was awesome and exciting."
           />
         </div>
       </div>

@@ -6,54 +6,50 @@ const Achivement = () => {
     >
       <div>
         <div className="py-12 font-titleFont">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
-          <h2 className="text-4xl font-bold">Company Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2000 - 2023</p>
+          <h2 className="text-2xl font-bold lgl:text-4xl">About Me</h2>
         </div>
         <div className="mt-6 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="As a Family Person"
+            subTitle="Belong Brown to Present."
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
+            des="All the members of the family are highly intimate with me and I am to them too." />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="As a Friend"
+            subTitle="Belong Brown to Present."
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
+            des="Always there to lend an ear, share laughter, offer support, and make memories that last a lifetime." />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="As a Social Person."
+            subTitle="Belong Brown to Present."
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Thriving in connections, fostering inclusivity, spreading positivity, and embracing diverse perspectives for meaningful interactions."
           />
         </div>
       </div>
       <div>
         <div className="py-12 font-titleFont">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2000 - 2023</p>
+          <h2 className="text-2xl font-bold lgl:text-4xl">More About Me</h2>
         </div>
         <div className="mt-6 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="As an Employee"
+            subTitle="2016 - 2020"
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Diligent, proactive, reliable, and dedicated, consistently delivering high-quality work and contributing to the success of the team."
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="As a Citizen"
+            subTitle="Belong Brown to Present."
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
+            des="Committed to the community, upholding values, respecting laws, and actively contributing to the betterment of society."/>
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="As a Teacher"
+            subTitle="2021 - 2022"
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
+            des=" Inspiring minds, fostering curiosity, guiding knowledge, and empowering students to reach their full potential." />
         </div>
       </div>
     </motion.div>

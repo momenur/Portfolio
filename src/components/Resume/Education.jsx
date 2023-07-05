@@ -5,53 +5,53 @@ const Education = () => {
         <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{duration:.5}}} className="flex flex-col gap-20 lgl:flex-row">
             <div>
                 <div className="py-12">
-                    <p className="text-sm text-designColor tracking-[4px]">1998 - 2018</p>
-                    <h2 className="text-4xl font-bold">Education Quality</h2>
+                    <p className="text-sm text-designColor tracking-[4px]">2000 - 2023</p>
+                    <h2 className="text-2xl font-bold lgl:text-4xl">Education Quality</h2>
                 </div>
                 <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
                     <ResumeCard
                         title="BSc in Computer Science"
-                        subTitle="University of DVI (2006 - 2010)"
-                        result="3.90/4"
-                        des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+                        subTitle="Northern University Bangladesh (NUB) (Present)"
+                        result="Up Coming"
+                        des="NUB's Computer Science: Where minds unite, coding ignites, and technology takes flight. Proud to be part of this journey!"
                     />
                     <ResumeCard
-                        title="AS - Science & Information"
-                        subTitle="SuperKing College (2001 - 2005)"
-                        result="4.75/5"
-                        des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+                        title="Diploma in Computer Science"
+                        subTitle="Model Institute of Science & Technology (2016 - 2020)"
+                        result="3.56/4"
+                        des="MIST 2020 Computer Science diploma holder, equipped with skills to excel in the tech world, ready to innovate and contribute."
                     />
                     <ResumeCard
-                        title="Secondary School Education"
-                        subTitle="Kingstar Secondary School (1998 - 2000)"
+                        title="Secondary School Certificate"
+                        subTitle="Hatem Tai High School (2010 - 2016) in Science Group"
                         result="5.00/5"
-                        des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+                        des="Hatem Tai High School, SSC 2016 Science graduate, laying the foundation for a bright academic journey in the sciences."
                     />
                 </div>
             </div>
             <div>
                 <div className="py-12">
-                    <p className="text-sm text-designColor tracking-[4px]">1998 - 2018</p>
-                    <h2 className="text-4xl font-bold">Job Experience</h2>
+                    <p className="text-sm text-designColor tracking-[4px]">2000 - 2023</p>
+                    <h2 className="text-2xl font-bold lgl:text-4xl">Completed Course</h2>
                 </div>
                 <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
                     <ResumeCard
-                        title="Sr. Software Engineer"
-                        subTitle="Google Out Tech - (2017 - Present)"
-                        result="USA"
-                        des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+                        title="Complete Web Development Course"
+                        subTitle="Programming Hero  (2021 - Present)"
+                        result="5 Star"
+                        des="Successfully completed this course, gaining expertise in front-end, back-end, & creating dynamic, interactive websites for the digital world."
                     />
                     <ResumeCard
-                        title="Web Developer & Trainer"
-                        subTitle="Apple Developer Team - (2012 - 2016)"
-                        result="MALAYSIA"
-                        des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+                        title="Quantum Method"
+                        subTitle="Improve My Attitude by Meditation (2020 - Present)"
+                        result="Bangladesh"
+                        des="Cultivating inner peace, mindfulness, & stress-relief techniques for a harmonious and balanced life. Serenity achieved!"
                     />
                     <ResumeCard
-                        title="Front-end Developer"
-                        subTitle="Nike - (2020 - 2011)"
-                        result="Oman"
-                        des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+                        title="English Language Club"
+                        subTitle="Dhaka English Language Club (2018 - Present)"
+                        result="Bangladesh"
+                        des="English course conquered: Fluent in language, skilled communicator, ready for international connections and exciting prospects."
                     />
                 </div>
             </div>

@@ -37,7 +37,7 @@ const Resume = () => {
                         setSkillData(false) &
                         setExperienceData(false) &
                         setAchievementData(true)
-                    } className={`${achievementData ? "border-designColor rounded-lg" : "border-transparent"} resumeLi`}>Achievements</li>
+                    } className={`${achievementData ? "border-designColor rounded-lg" : "border-transparent"} resumeLi`}>More About Me</li>
                 </ul>
             </div>
 
