@@ -42,7 +42,7 @@ const Banner = () => {
                             </span>
                         </div>
                     </div>
-                    <div>
+                    <div className="flex flex-col gap-4">
                         <h3 className="text-base uppercase lgl:mb-4">best skill on</h3>
                         <div className="flex gap-4">
                             <span className="bannerIcon">

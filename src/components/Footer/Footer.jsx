@@ -134,7 +134,7 @@ const Footer = () => {
             </div>
             <div className="w-full py-10 ">
                 <p className="w-full text-base text-center text-gray-500 text">
-                    © 2022. All rights reserved by Momenur Islam. <span className="text-designColor"> || </span>Phone: 01755772447 <span className="text-designColor"> ||  </span>Email: momenurislam6@gmail.com
+                    © 2023. All rights reserved by Momenur Islam. <span className="text-designColor"> || </span>Phone: 01755772447 <span className="text-designColor"> ||  </span>Email: momenurislam6@gmail.com
                 </p>
             </div>
         </footer>
