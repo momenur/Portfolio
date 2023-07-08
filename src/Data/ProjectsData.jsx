@@ -54,12 +54,12 @@ export const ProjectsItemsData = [
   },
   {
     id: 106,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEvrXbmYclgQUfJnXuSqYF8ZGrfSvwFjSM7Q&usqp=CAU",
+    img: "https://i.ibb.co/YhQ0W0P/AI-Univers-Hub.png",
     icon: <FaGlobe />,
-    title: "Hosting Websites",
-    clintSite: "",
+    title: "AI Universe Hub",
+    clintSite: "https://github.com/momenur/AI-Univeres-Hub",
     serverSite: "",
-    liveSiteLink: "",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    liveSiteLink: "https://delightful-praline-66a1dd.netlify.app/",
+    des: "This is AI Universe Hub, this project use javaScript API, sort by date, and add spinner",
   },
 ];
