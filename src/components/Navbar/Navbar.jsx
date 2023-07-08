@@ -31,10 +31,7 @@ const Navbar = () => {
                 {showMenu && (
                     <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
                         <div className="relative flex flex-col gap-8 py-2">
-                            <div>
-                                <div><h1>Download Button</h1></div>
-
-                            </div>
+                            
                             <ul className="flex flex-col gap-4">
                                 {navLinksdata.map((item) => (
                                     <li

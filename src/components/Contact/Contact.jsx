@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
+import emailjs from '@emailjs/browser';
 import Title from "../../Share/Title/Title";
 import ContactLeft from "./ContactLeft";
 
@@ -20,8 +21,24 @@ const Contact = () => {
     // ========== Email Validation end here ================
 
 
-    const handleSend = (e) => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
         e.preventDefault();
+        
+  
+      emailjs.sendForm('service_u57ofyt', 'template_bdfz6te', form.current, 'E3BFLUn3pAPnJsrFV')
+        .then((result) => {
+            console.log(result.text);
+            console.log("sucessfully sms send");
+        }, (error) => {
+            console.log(error.text);
+        });
+        handleSend();
+    };
+
+
+    const handleSend = () => {
         if (username === "") {
             setErrMsg("Username is required!");
         } else if (phoneNumber === "") {
@@ -47,6 +64,8 @@ const Contact = () => {
         }
     };
 
+    
+
 
     return (
         <section id="contact" className="border-b-[1px] border-b-black pb-20">
@@ -58,7 +77,7 @@ const Contact = () => {
 
                         <div className="w-full lgl:w-[60%] h-full flex flex-col  items-center justify-center">
                             <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-8 flex flex-col gap-8 justify-center">
-                                <form onSubmit={handleSend} className="w-full">
+                                <form ref={form} onSubmit={sendEmail} className="w-full">
                                     {errMsg && (
                                         <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
                                             {errMsg}
@@ -77,7 +96,7 @@ const Contact = () => {
                                                     value={username}
                                                     className={`${errMsg === "Username is required!" &&
                                                         "outline-designColor"
-                                                        } contactInput`} type="text" name="" id="" />
+                                                        } contactInput`} type="text" name="to_name" id="" />
                                             </div>
                                             <div className="flex flex-col w-full gap-4 lgl:w-1/2">
                                                 <p className="text-sm tracking-wide text-gray-400 uppercase">Phone Number</p>
@@ -94,7 +113,7 @@ const Contact = () => {
                                                 value={email}
                                                 className={`${errMsg === "Please give your Email!" &&
                                                     "outline-designColor"
-                                                    } contactInput`} type="email" name="" id="" />
+                                                    } contactInput`} type="email" name="from_name" id="" />
                                         </div>
                                         <div className="flex flex-col w-full gap-4">
                                             <p className="text-sm tracking-wide text-gray-400 uppercase">Subject</p>
@@ -109,7 +128,7 @@ const Contact = () => {
                                             <textarea onChange={(e) => setMessage(e.target.value)}
                                                 value={message}
                                                 className={`${errMsg === "Message is required!" && "outline-designColor"
-                                                    } contactTextArea`} name="" cols="30" rows="8"></textarea>
+                                                    } contactTextArea`} name="message" cols="30" rows="8"></textarea>
                                         </div>
                                         <div>
                                             <input className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wide uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent" type="submit" value="SEND MESSAGE" />
