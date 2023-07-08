@@ -75,7 +75,7 @@ const Contact = () => {
                     <div className="flex flex-col justify-between w-full h-auto lgl:flex-row">
                         <ContactLeft></ContactLeft>
 
-                        <div className="w-full lgl:w-[60%] h-full flex flex-col  items-center justify-center">
+                        <div className="w-full lgl:w-[60%] h-full flex flex-col  items-center justify-center" data-aos="zoom-in-left">
                             <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-8 flex flex-col gap-8 justify-center">
                                 <form ref={form} onSubmit={sendEmail} className="w-full">
                                     {errMsg && (

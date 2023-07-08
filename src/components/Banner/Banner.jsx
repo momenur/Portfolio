@@ -2,6 +2,9 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from 'react-icons/fa';
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 import BannerImg from '../../assets/images/bannerImage.png'
+
+
+
 const Banner = () => {
     const [text] = useTypewriter({
         words: ["Professional Coder.", "Junior Front-End Developer.", "UI Designer."],
@@ -12,7 +15,7 @@ const Banner = () => {
     });
     return (
         <section id="home" className="w-full pt-10 pb-20 border-b-[1px] border-b-black flex flex-col lgl:flex-row">
-            <div className="flex flex-col w-full gap-20 lgl:w-1/2">
+            <div className="flex flex-col w-full gap-20 lgl:w-1/2" data-aos="zoom-in">
                 <div className="flex flex-col gap-5">
                     <h3 className="text-sm font-normal lgl:text-lg"> WELCOME TO MY WORLD</h3>
                     <h1 className="text-4xl font-bold text-white lgl:text-6xl">{"Hi I'm"}{" "}<span className="capitalize text-designColor">Momenur Islam</span></h1>
@@ -61,7 +64,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <div className="relative flex items-center justify-center w-full mt-24 lgl:mt-0 lgl:w-1/2">
+            <div className="relative flex items-center justify-center w-full mt-24 lgl:mt-0 lgl:w-1/2 " data-aos="fade-up">
                 <img className="w-[450px] rounded-full border-b-[6px] border-b-[#ff014f] z-10" src={BannerImg} alt="" />
                 <div className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
             </div>

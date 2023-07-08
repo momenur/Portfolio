@@ -83,7 +83,7 @@ const Testimonial = () => {
         <section id="testimonial" className="border-b-[1px] border-b-black pb-20">
             <Title title="what our clients say" description="testimonial"></Title>
             {/* Main Div */}
-            <div>
+            <div data-aos="zoom-in-right">
                 <div className="max-w-6xl mx-auto">
                     <Slider {...settings}>
                         <div className="w-full">
