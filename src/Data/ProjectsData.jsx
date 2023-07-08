@@ -11,7 +11,7 @@ export const ProjectsItemsData = [
     clintSite: "https://github.com/momenur/DM-camp",
     serverSite: "https://github.com/momenur/DM-Camp-Server",
     liveSiteLink: "https://dance-master-camp.web.app/",
-    des: "DM Camp (Dance Master Camp) is a Dance School Web site . its have three dashboard. Admin Dashboard, Instructor Dashboard & also a Student Dashboard. When user login he is visit this website as a Student",
+    des: "DM Camp (Dance Master Camp) is a Dance School Web site .Admin-Gamil: admin@gmail.com Admin-Pass: AAAaaa# . When user login he is visit this website as a Student",
   },
   {
     id: 102,
