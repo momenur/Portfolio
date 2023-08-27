@@ -15,8 +15,8 @@ function App() {
       <div className="px-4 mx-auto lgl:px-16 max-w-screen-2xl">
         <Navbar></Navbar>
         <Banner></Banner>
-        <Features></Features>
         <Projects></Projects>
+        <Features></Features>
         <Resume></Resume>
         <Testimonial></Testimonial>
         <Contact></Contact>

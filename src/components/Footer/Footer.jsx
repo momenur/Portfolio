@@ -1,4 +1,5 @@
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { BsGithub } from "react-icons/bs";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -7,15 +8,15 @@ const Footer = () => {
                 <div className="flex flex-col w-full h-full gap-8">
                     <h3 className="mb-4 text-base uppercase">find me in</h3>
                     <div className="flex gap-4">
-                        <span className="bannerIcon">
-                            <FaFacebookF />
-                        </span>
-                        <span className="bannerIcon">
-                            <FaTwitter />
-                        </span>
-                        <span className="bannerIcon">
-                            <FaLinkedinIn />
-                        </span>
+                    <span className="bannerIcon">
+                                <a href="https://web.facebook.com/momen.info"><FaFacebookF/></a>
+                            </span>
+                            <span className="bannerIcon">
+                                <a href="https://github.com/momenur"><BsGithub /></a>
+                            </span>
+                            <span className="bannerIcon">
+                                <a href="https://www.linkedin.com/in/momenur-islam/"><FaLinkedinIn/></a>
+                            </span>
                     </div>
                     <button className="px-4 h-12 bg-[#141518] rounded-lg text-base text-designColor tracking-wide uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"><a href="Resune Of Momenur Islam.pdf" download="Resume of Momenur Islam.pdf">Download Resume</a></button>
                 </div>

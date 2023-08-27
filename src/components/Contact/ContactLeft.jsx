@@ -1,5 +1,6 @@
+import { BsGithub } from "react-icons/bs";
 import contactImg from "../../assets/images/testimonial/contactImg.png";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 const ContactLeft = () => {
     return (
         <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne p-8 rounded-lg" data-aos="zoom-in-right">
@@ -14,14 +15,14 @@ const ContactLeft = () => {
                     <div>
                         <h3 className="mb-4 text-base uppercase">find me in</h3>
                         <div className="flex gap-4">
-                            <span className="bannerIcon">
-                                <FaFacebookF></FaFacebookF>
+                        <span className="bannerIcon">
+                                <a href="https://web.facebook.com/momen.info"><FaFacebookF/></a>
                             </span>
                             <span className="bannerIcon">
-                                <FaTwitter></FaTwitter>
+                                <a href="https://github.com/momenur"><BsGithub /></a>
                             </span>
                             <span className="bannerIcon">
-                                <FaLinkedinIn></FaLinkedinIn>
+                                <a href="https://www.linkedin.com/in/momenur-islam/"><FaLinkedinIn/></a>
                             </span>
                         </div>
                     </div>

@@ -1,6 +1,7 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from 'react-icons/fa';
+import { FaFacebookF, FaLinkedinIn, FaReact } from 'react-icons/fa';
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { BsGithub } from "react-icons/bs";
 import BannerImg from '../../assets/images/bannerImage.png'
 
 
@@ -35,13 +36,13 @@ const Banner = () => {
                         <h3 className="mb-4 text-base uppercase">find me in</h3>
                         <div className="flex gap-4">
                             <span className="bannerIcon">
-                                <FaFacebookF></FaFacebookF>
+                                <a href="https://web.facebook.com/momen.info"><FaFacebookF/></a>
                             </span>
                             <span className="bannerIcon">
-                                <FaTwitter></FaTwitter>
+                                <a href="https://github.com/momenur"><BsGithub /></a>
                             </span>
                             <span className="bannerIcon">
-                                <FaLinkedinIn></FaLinkedinIn>
+                                <a href="https://www.linkedin.com/in/momenur-islam/"><FaLinkedinIn/></a>
                             </span>
                         </div>
                     </div>
@@ -65,8 +66,8 @@ const Banner = () => {
                 </div>
             </div>
             <div className="relative flex items-center justify-center w-full mt-24 lgl:mt-0 lgl:w-1/2 " data-aos="fade-up">
-                <img className="w-[450px] rounded-full border-b-[6px] border-b-[#ff014f] z-10" src={BannerImg} alt="" />
-                <div className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
+                <img className="w-[450px] h-[400px] md:h-[500px] rounded-full border-b-[6px] border-b-[#ff014f] z-10" src={BannerImg} alt="" />
+                <div className="absolute bottom-0 w-[350px] h-[420px] md:h-[450px] lgl:w-[500px] lgl:h-[530px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
             </div>
         </section>
     );
