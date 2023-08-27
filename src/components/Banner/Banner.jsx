@@ -67,7 +67,7 @@ const Banner = () => {
             </div>
             <div className="relative flex items-center justify-center w-full mt-24 lgl:mt-0 lgl:w-1/2 " data-aos="fade-up">
                 <img className="w-[450px] h-[400px] md:h-[500px] rounded-full border-b-[6px] border-b-[#ff014f] z-10" src={BannerImg} alt="" />
-                <div className="absolute bottom-0 w-[350px] h-[420px] md:h-[450px] lgl:w-[500px] lgl:h-[530px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
+                <div className="absolute bottom-0 w-[350px] h-[420px] md:w-[500px] md:h-[550px] lgl:w-[500px] lgl:h-[530px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
             </div>
         </section>
     );
