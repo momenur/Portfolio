@@ -24,7 +24,7 @@ const Education = () => {
                     <ResumeCard
                         title="Secondary School Certificate"
                         subTitle="Hatem Tai High School (2010 - 2016) in Science Group"
-                        result="5.00/5"
+                        result="4.88/5"
                         des="Hatem Tai High School, SSC 2016 Science graduate, laying the foundation for a bright academic journey in the sciences."
                     />
                 </div>
