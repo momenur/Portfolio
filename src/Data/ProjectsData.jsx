@@ -19,7 +19,7 @@ export const ProjectsItemsData = [
     title: "Dance School",
     clintSite: "https://github.com/momenur/DM-camp",
     serverSite: "https://github.com/momenur/DM-Camp-Server",
-    liveSiteLink: "https://dance-master-camp.web.app/",
+    liveSiteLink: "https://dance-master-camp.web.app",
     des: "DM Camp (Dance Master Camp) is a Dance School Web site .Admin-Gamil: admin@gmail.com Admin-Pass: AAAaaa# . When user login he is visit this website as a Student",
   },
   {
@@ -29,7 +29,7 @@ export const ProjectsItemsData = [
     title: "Toy World",
     clintSite: "https://github.com/momenur/Toy-House-Client",
     serverSite: "https://github.com/momenur/toyHouse-Server",
-    liveSiteLink: "https://toy-house-f1f9b.web.app/",
+    liveSiteLink: "https://toy-house-f1f9b.web.app",
     des: "Toy World is a E-Commerce Website. You can Add a Toy and you also seen Your Added Toy and All Toy, Its Use Firebase, MongoDB, Tailwind CSS, React, DaisyUI ETC.",
   },
   {
