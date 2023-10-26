@@ -79,6 +79,7 @@ const Testimonial = () => {
             </div>
         )
     };
+    
     return (
         <section id="testimonial" className="border-b-[1px] border-b-black pb-20">
             <Title title="what our clients say" description="testimonial"></Title>

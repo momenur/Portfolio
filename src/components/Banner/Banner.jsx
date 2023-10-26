@@ -4,8 +4,6 @@ import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
 import BannerImg from '../../assets/images/bannerImage.png'
 
-
-
 const Banner = () => {
     const [text] = useTypewriter({
         words: ["Professional Coder.", "Junior Front-End Developer.", "UI Designer."],
@@ -14,6 +12,7 @@ const Banner = () => {
         deleteSpeed: 10,
         delaySpeed: 2000,
     });
+    
     return (
         <section id="home" className="w-full pt-10 pb-20 border-b-[1px] border-b-black flex flex-col lgl:flex-row">
             <div className="flex flex-col w-full gap-20 lgl:w-1/2" data-aos="zoom-in">

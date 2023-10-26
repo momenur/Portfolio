@@ -1,4 +1,3 @@
-
 const ResumeCard = ({title,subTitle,result,des}) => {
     return (
         <div className="flex w-full h-1/3 group" data-aos="fade-up">

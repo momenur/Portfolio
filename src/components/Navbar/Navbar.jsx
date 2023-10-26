@@ -4,6 +4,7 @@ import { navLinksdata } from "../../contants/navOptions";
 import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 import { useState } from "react";
+
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false)
     return (

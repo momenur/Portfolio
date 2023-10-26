@@ -64,9 +64,6 @@ const Contact = () => {
         }
     };
 
-    
-
-
     return (
         <section id="contact" className="border-b-[1px] border-b-black pb-20">
             <Title title="contact" description="Contact with me"></Title>

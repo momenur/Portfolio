@@ -1,5 +1,5 @@
-
 import { motion } from "framer-motion"
+
 const Skills = () => {
     return (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: .5 } }} className="flex flex-col gap-10 lgl:flex-row lgl:gap-20">

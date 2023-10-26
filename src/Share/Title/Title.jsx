@@ -1,4 +1,3 @@
-
 const Title = ({title, description}) => {
     return (
         <div className="pt-12 mb-16">
